@@ -186,17 +186,17 @@ This also shows the probabilities the model has assigned to each of the actions.
         1	greet	 0.0970264300704
         2	goodbye	 0.0288009047508
         3	listen	 0.00123148341663
-        6	search_cinemas	0.000627864559647
-        8	search_films	0.0367559418082
+        6	search_venues	0.000627864559647
+        8	search_concerts	0.0367559418082
         9	suggest		0.0261212754995
         11	youarewelcome	0.594935178757
         13	explain_options	0.0516758263111
         14	store_slot	0.00145904591773
-        15	show_cinema_reviews	0.00887114647776
-        16	show_film_reviews	0.0870243906975
+        15	show_venue_reviews	0.00887114647776
+        16	show_concert_reviews	0.0870243906975
 
 
-In this case, the bot should ``show_film_reviews`` (rather than cinema reviews!) so we type ``16`` and hit enter.
+In this case, the bot should ``show_concert_reviews`` (rather than venue reviews!) so we type ``16`` and hit enter.
 
 .. note:: The policy model will get updated *on-the-fly*,
    so that it's less likely to make the same mistake again.
